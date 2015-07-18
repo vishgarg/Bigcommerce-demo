@@ -13,7 +13,7 @@ class HomeController < ApplicationController
      "context" => params[:context]}.to_json,
      :headers => { 'Content-Type' => 'application/json' }
      })
-     flash[:error] = "#{response.body} ----- #{params}"
+     flash[:error] = "Response of post request to get token#{response.body} ----- param arrived after authorization #{params}"
   end
 
 end
