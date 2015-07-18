@@ -33,7 +33,7 @@ group :doc do
 end
 
 #gem 'bigcommerce-oauth-api',path: 'lib/bigcommerce-oauth-api'
-gem 'omniauth-bigcommerce',path: 'lib/omniauth-bigcommerce'
+gem 'omniauth-bigcommerce'
 gem 'httparty'
 
 # Use ActiveModel has_secure_password
